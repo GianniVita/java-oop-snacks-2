@@ -3,6 +3,7 @@ public class AppConto {
         ContoBancario conto = new ContoBancario("IT000141178069");
 
         conto.deposita(500);
+        conto.preleva(100);
 
         System.out.println("Numero conto:" + conto.getNumeroConto());
         System.out.println("Saldo corrente:" + conto.getSaldoCorrente());
