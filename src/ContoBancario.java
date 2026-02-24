@@ -9,7 +9,16 @@ public class ContoBancario {
     }
 
     public void deposita(double importo){
+        if (importo > 0) {
+            saldo += importo;
+        }
+    }
 
+    public String getNumeroConto() {
+        return numeroConto;
+    }
+    public double getSaldoCorrente() {
+        return saldo;
     }
 
 
